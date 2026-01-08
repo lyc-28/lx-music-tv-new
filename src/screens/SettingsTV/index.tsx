@@ -7,7 +7,7 @@ import { setTheme } from '@/core/theme'
 import { TVTouchable } from '@/components/TV/Touchable'
 import { getAllThemes } from '@/theme/themes'
 import songlistState from '@/store/songlist/state'
-import { version } from '../../../package.json'
+const version = '1.8.0' // Hardcoded for TV build stability
 
 const SettingsTV = () => {
     const theme = useTheme()
